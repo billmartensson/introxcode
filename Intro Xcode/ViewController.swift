@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        thelabel.text = "Start av app"
+        thelabel.text = "Start!"
     }
 
     @IBAction func clickingbutton(_ sender: Any) {
