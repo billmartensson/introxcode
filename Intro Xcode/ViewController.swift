@@ -9,11 +9,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var thelabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        thelabel.text = "ABC"
     }
 
-
+    @IBAction func clickingbutton(_ sender: Any) {
+        
+        thelabel.text = "XYZ"
+        
+    }
+    
 }
 
